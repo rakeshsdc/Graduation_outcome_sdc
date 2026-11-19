@@ -1,16 +1,5 @@
-# ------------------------------------------------------------------
-# Copyright footer
-# ------------------------------------------------------------------
-st.markdown("---")
-st.markdown(
-    """
-    <div style="text-align:center; font-size:0.85rem; color:gray; padding:8px 0 16px 0;">
-        © 2026 Dr. Rakesh Chandran S.B, Associate Professor of Physics,
-        Sanatana Dharma College, Alappuzha &amp; IQAC Coordinator. All rights reserved.
-    </div>
-    """,
-    unsafe_allow_html=True,
-)
+# Copyright (c) 2026 Dr. Rakesh Chandran S.B, Associate Professor of Physics,
+# Sanatana Dharma College, Alappuzha & IQAC Coordinator. All rights reserved.
 import pandas as pd
 import streamlit as st
 
@@ -263,4 +252,17 @@ st.download_button(
     file_name=f"outcomes_{safe(dept_sel)}_{safe(prog_sel)}_{year_sel}.xlsx",
     mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     type="primary",
+)
+# ------------------------------------------------------------------
+# Copyright footer
+# ------------------------------------------------------------------
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align:center; font-size:0.85rem; color:gray; padding:8px 0 16px 0;">
+        © 2026 Dr. Rakesh Chandran S.B, Associate Professor of Physics,
+        Sanatana Dharma College, Alappuzha &amp; IQAC Coordinator. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
