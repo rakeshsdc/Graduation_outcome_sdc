@@ -1,3 +1,16 @@
+# ------------------------------------------------------------------
+# Copyright footer
+# ------------------------------------------------------------------
+st.markdown("---")
+st.markdown(
+    """
+    <div style="text-align:center; font-size:0.85rem; color:gray; padding:8px 0 16px 0;">
+        © 2026 Dr. Rakesh Chandran S.B, Associate Professor of Physics,
+        Sanatana Dharma College, Alappuzha &amp; IQAC Coordinator. All rights reserved.
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
 import pandas as pd
 import streamlit as st
 
